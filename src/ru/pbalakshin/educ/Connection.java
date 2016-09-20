@@ -2,6 +2,8 @@ package ru.pbalakshin.educ;
 
 /**
  * Created by pbalakshin on 9/20/2016.
+
+ Homework after Lesson2. Task 1.
  */
 public class Connection {
 
