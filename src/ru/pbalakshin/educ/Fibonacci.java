@@ -3,6 +3,9 @@ package ru.pbalakshin.educ;
 import java.math.BigInteger;
 import java.util.Scanner;
 
+/**
+ * Created by pbalakshin on 9/20/2016.
+ */
 public class Fibonacci {
 
     public static void main(String[] args) {
@@ -19,13 +22,13 @@ public class Fibonacci {
         }
 
         fibPrevious = new BigInteger("0");
-        fibCurrent = new BigInteger("1");;
+        fibCurrent = new BigInteger("1");
 
         for (int i = 1; i <= fibOrder; i++ ) {
-                fibNext = fibPrevious.add(fibCurrent);
-                System.out.println(i + " element = " + fibCurrent);
-                fibPrevious = fibCurrent;
-                fibCurrent = fibNext;
+            fibNext = fibPrevious.add(fibCurrent);
+            System.out.println(i + " element = " + fibCurrent);
+            fibPrevious = fibCurrent;
+            fibCurrent = fibNext;
         }
 
     }
