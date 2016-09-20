@@ -3,10 +3,10 @@ package ru.pbalakshin.educ;
 /**
  * Created by pbalakshin on 9/20/2016.
  */
-public class Student {
+public class Connection {
 
     int age;
-    Student(){
+    Connection(){
 
     }
 
