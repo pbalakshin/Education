@@ -10,6 +10,7 @@ import java.util.Scanner;
 public class Dean {
 
     static int num = 0;
+    static Student[] students;
 
     Dean(){
 
@@ -20,24 +21,14 @@ public class Dean {
         Student[] students = new Student[studentsNumber];
     }
 
-    public static void main(String[] args) {
-        System.out.println("Please enter the number of required students:");
-
-        int studentsNumber = 0;
-            Scanner in = new Scanner(System.in);
-        studentsNumber = in.nextInt();
-
-        Dean dn1 = new Dean(studentsNumber);
-
-        for (int i = 1; i <= studentsNumber; i++ ) {
+        //for (int i = 1; i <= studentsNumber; i++ ) {
 
 
             //System.out.println(dn1.);
-        }
-    }
+        //}
 
-    public static void getStudent(){
-
+    public static Student getStudent(){
+        return students[num--];
     }
 
 }
